@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Selectors</title>
+    <style>
+      /* 
+      * → universal selector
+      # → id
+      . → class 
+      p → element
+      */
+
+      * {
+        text-align: center;
+      }
+
+      #firstId {
+        color: red;
+      }
+
+      .text-blue {
+        color: blue;
+      }
+
+      p {
+        color: goldenrod;
+      }
+
+      h1 {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="firstId">My First Paragraph</p>
+    <p class="text-blue">My Second Paragraph</p>
+    <p>My Third Paragraph</p>
+    <p class="text-blue">My Fourth Paragraph</p>
+    <p>My Fifth Paragraph</p>
+
+    <h1 class="text-blue">I am a heading</h1>
+  </body>
+</html>
