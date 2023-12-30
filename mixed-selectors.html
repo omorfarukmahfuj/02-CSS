@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed Selectors</title>
+    <style>
+      .text-green {
+        color: green;
+      }
+      .text-red {
+        color: red;
+      }
+      .bg-yellow {
+        background-color: yellow;
+      }
+
+      p {
+        color: blue;
+      }
+
+      li.text-red {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Mixed <span class="text-green">Selectors</span></h3>
+    <h3>This is my <span class="text-green">Blog</span></h3>
+
+    <div class="bg-yellow">
+      <h4>This is Heading</h4>
+      <p class="text-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+        consequuntur suscipit culpa asperiores magnam optio totam nisi fugiat
+        fuga adipisci recusandae quidem deserunt iusto. Officia necessitatibus
+        error, magnam cum quia dolorem adipisci ex tempore laboriosam, eveniet
+        dolore atque. Velit, tempore?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ad eveniet
+        distinctio iure tempore quasi voluptatum voluptate, id quas unde
+        temporibus labore quae. Et commodi illum esse, doloremque dicta
+        voluptas.
+      </p>
+    </div>
+
+    <p>Different ways to apply styles</p>
+    <ol>
+      <li class="text-red">Inline CSS</li>
+      <li class="text-red">Embedded / Internal CSS</li>
+      <li>External CSS</li>
+    </ol>
+
+    <!-- CSS Combinators -->
+    <p>There are four different Combinators in CSS</p>
+  </body>
+</html>
