@@ -2,10 +2,18 @@
   margin: 0;
 }
 
-.page-title{
-  color: steelblue;
+header {
+  height: 200px;
+  background-image: url(../images/header-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  background-blend-mode: screen;
+}
+
+.page-title {
   text-align: center;
-  margin-top: 20px;
+  padding-top: 80px;
   font-family: sans-serif;
 }
 
