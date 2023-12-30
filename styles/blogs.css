@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.page-title{
+  color: steelblue;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.blog {
+  background-color: lightblue;
+  border: 2px solid steelblue;
+  margin: 25px 50px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}

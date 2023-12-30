@@ -4,22 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Blogs</title>
-    <style>
-      * {
-        margin: 0;
-      }
-      .blog {
-        background-color: lightblue;
-        border: 2px solid steelblue;
-        margin: 25px 50px;
-        border-radius: 10px;
-        padding: 10px 15px; 
-      }
-    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./styles/blogs.css" />
+    <link rel="stylesheet" href="./styles/list.css" />
   </head>
   <body>
+    <h1 class="page-title">Welcome to my blog</h1>
     <div class="blog">
-      <h3>My First Blog</h3>
+      <h2>My First Blog</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat non
         reprehenderit deleniti odio eius. Nobis ipsam cum odit molestiae debitis
@@ -51,5 +43,23 @@
         totam ullam impedit porro quo?
       </p>
     </div>
+    <!-- Inline CSS -->
+    <h4
+      style="
+        margin: 10px;
+        color: steelblue;
+        font-size: 25px;
+        text-align: center;
+      "
+    >
+      Our Authors
+    </h4>
+    <ul>
+      <li>Hashib</li>
+      <li>Kabbo</li>
+      <li>Sayem</li>
+      <li>Robert</li>
+      <li>Jishan</li>
+    </ul>
   </body>
 </html>
