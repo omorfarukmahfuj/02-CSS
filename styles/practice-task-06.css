@@ -1,0 +1,21 @@
+img {
+  display: none;
+}
+
+h2 {
+  visibility: hidden;
+}
+
+p {
+  display: inline
+}
+
+small {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  margin-top: 20px;
+}
