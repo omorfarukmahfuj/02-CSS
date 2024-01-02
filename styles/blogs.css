@@ -4,7 +4,7 @@
 
 header {
   height: 200px;
-  background-image: url(../images/header-image.jpeg);
+  background-image: url("../images/header-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: lightblue;
