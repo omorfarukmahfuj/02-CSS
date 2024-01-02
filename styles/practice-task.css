@@ -1,0 +1,20 @@
+.text-green{
+  color: green;
+}
+
+h1, p, li{
+  color: brown;
+  font-family: sans-serif;
+
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline dashed goldenrod;
+}
+
+p{
+  text-align: center;
+  font-style: italic;
+}
